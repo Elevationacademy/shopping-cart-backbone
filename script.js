@@ -26,7 +26,7 @@ var AppModel = Backbone.Model.extend({
   },
 
   initialize: function () {
-    // invoke _calculateTotal when necessary
+    // TODO: invoke _calculateTotal when necessary
   },
 
   _calculateTotal: function () {
