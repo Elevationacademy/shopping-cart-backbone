@@ -85,13 +85,11 @@ var AppView = Backbone.View.extend({
 
     // push our view in the itemViews array for later removal
     this.itemViews.push(view);
-
-
     this.$cartList.append(view.render().el);
   },
 
   renderTotal: function () {
-    this.$total.html(this.model.get('total'));
+    // TODO: Update the page with the AppModel's total
   }
 });
 
